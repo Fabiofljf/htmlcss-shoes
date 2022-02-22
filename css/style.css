@@ -6,3 +6,11 @@
 }
 
 /* MAIN */
+
+.container{
+    height: 100vh;
+}
+
+#red{
+    background-color: red;
+}
