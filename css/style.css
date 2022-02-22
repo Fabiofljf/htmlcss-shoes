@@ -9,8 +9,30 @@
 
 .container{
     height: 100vh;
+    border: 1px solid black;
 }
 
+.container_small{
+    height: 400px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* primo contenitore */
 #red{
     background-color: red;
+}
+
+/* secondo contenitore */
+#green{
+    background-color: green;
+}
+
+/* terzo contenitore */
+#yellow{
+    background-color: yellow;
 }
