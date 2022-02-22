@@ -31,6 +31,12 @@ p{
     transform: translate(-50%, -50%);
 }
 
+#container_extra_small{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
 /* primo contenitore */
 #red{
     background-color: red;
@@ -48,4 +54,20 @@ p{
 
 #text_container{
     color: green;
+}
+
+/* Bonus */
+#container_extra_small > div{
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.text_badge > a{
+    text-align: center;
+    margin: 15px 20px;
+    padding: 5px;
+    display: inline-block;
+    ;
 }
